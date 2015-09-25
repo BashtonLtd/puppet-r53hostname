@@ -1,0 +1,14 @@
+{
+  "name": "bashtoni-r53hostname",
+  "version": "0.1.0",
+  "author": "bashtoni",
+  "summary": "Wrapper to create route53 hostname for local instance",
+  "license": "Apache-2.0",
+  "source": "https://github.com/BashtonLtd/puppet-r53hostname",
+  "project_page": "https://github.com/BashtonLtd/puppet-r53hostname",
+  "issues_url": "https://github.com/BashtonLtd/puppet-r53hostname/issues",
+  "dependencies": [
+    {"name":"puppetlabs-aws","version_requirement":">= 1.2.0"}
+  ]
+}
+
