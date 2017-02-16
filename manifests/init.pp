@@ -21,7 +21,8 @@ class r53hostname (
     $record = "${service}.${zone}"
   }
 
-  if ($::ec2_metadata['public-hostname']) {
+  if ($::ec2_metadata['public-hostname']
+      and $::ec2_metadata['public-hostname'] != '') {
 
     route53_cname_record { $record:
       ensure => 'present',
